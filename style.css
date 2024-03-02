@@ -45,3 +45,24 @@ h4{
     margin: 2% 0%;
     font-size: 2rem;
 }
+
+.page-links{
+    margin-top: 4%;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.page-links>a{
+    width: fit-content;
+    text-decoration: none;
+    color: #C5C6C7;
+    border: 2px solid #C5C6C7;
+    padding: 20px 35px;
+    border-radius: 10px;
+}
+
+.page-links>a:hover{
+    color: #45A29E;
+    border: 2px solid #45A29E;
+}
