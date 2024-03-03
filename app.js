@@ -1,3 +1,6 @@
+// User Greeter 
+let user_name = prompt(`Please tell me your name!`);
+alert(`Hello ${user_name}! Welcome to my Website`);
 // 1
 document.write("<br>");
 document.write("<br>");
