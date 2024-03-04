@@ -1,6 +1,7 @@
 *{ 
     text-align: center;
     margin: 4%;
+    font-family: "Roboto";
 }
 /* Get Started Button  */
 #get-start{
@@ -25,5 +26,17 @@
     font-size: 1.2rem;
     border-spacing: 0;
     font-family: sans-serif;
+}
+
+.result-table>tr{
+    box-sizing: content-box;
+    padding: 2px;
+    margin: 0 auto;
+}
+
+#result-table>tr>th{
+    font-size: 1.4rem;
+    padding: 4px;
+    font-family: "Roboto";
 }
 

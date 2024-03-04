@@ -13,7 +13,7 @@ function result() {
     let obtained_subject3 = +prompt(`Please tell me Obtained Marks of ${subject3}`);    
     let sub_total = 300;
 
-    document.write(`<table id="result-table">
+    document.write(`<table class="result-table">
         <thead>Mark Sheet</thead>
         <tr>
         <th>Subject<th>
